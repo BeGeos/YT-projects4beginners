@@ -12,7 +12,7 @@ def is_prime(num):
     for number in range(2, (num // 2) +1):
         if num % number == 0:
             return "It's not a prime number"
-        return "It's a prime number"
+    return "It's a prime number"
 
 
 dividers_bin = []
